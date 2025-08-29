@@ -30,8 +30,8 @@ Clean design with a dark theme makes it easy to use on both desktop and mobile d
 ---
 
 ## 📸 Preview
-![Country Information Finder Screenshot](screenshot.png,screenshot_1.png)  
-
+![Country Information Finder Screenshot 1](screenshot.png)  
+![Country Information Finder Screenshot 2](screenshot_1.png)
 
 ---
 
