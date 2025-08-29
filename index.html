@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Information Finder</title>
+    
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Include jQuery library -->
+    <script src="jquery-3.7.1.js"></script>
+    
+    <!-- Link to external JavaScript file -->
+    <script src="main.js"></script>
+</head>
+<body>
+    <!-- Main container for content -->
+    <div id="content-container">
+        <h1>Country Information</h1>
+        
+        <!-- Input field for entering country name -->
+        <input type="text" id="search-box" placeholder="Enter country name"><br>
+        
+        <!-- Button to trigger search function -->
+        <button id="search-btn">Search</button>
+        
+        <!-- Display country name -->
+        <h2 id="country-name"></h2>
+        
+        <!-- Display country flag -->
+        <img id="country-flag" class="flag" src="" alt="">
+        
+        <!-- Display country details -->
+        <p id="capital"></p>
+        <p id="population"></p>
+        <p id="region"></p>
+        
+        <!-- Display error message if needed -->
+        <p id="error" class="error"></p>
+    </div>
+</body>
+</html>
